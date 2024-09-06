@@ -1,6 +1,11 @@
 /* ấ us you to depare style he shot ese hapled oathe, eatire ang at components
 within the app  */
 /* base rule */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
