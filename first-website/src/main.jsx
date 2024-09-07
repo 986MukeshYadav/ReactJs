@@ -5,7 +5,9 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 // import { EventProps } from './components/EventProps.jsx'
 // import { EventPropagation } from './components/EventPropagation.jsx'
-import { State } from './components/hooks/State.jsx'
+// import { State } from './components/hooks/State.jsx'
+// import { DerivedState } from './components/DerivedState.jsx'
+import { LiftStateUp } from './components/LiftStateUp.jsx'
 // import Profile from './components/Profile.jsx'
 
 createRoot(document.getElementById('root')).render(
@@ -14,6 +16,8 @@ createRoot(document.getElementById('root')).render(
     {/* <EventProps/> */}
     {/* <Profile/> */}
     {/* <EventPropagation/> */}
-    <State/>
+    {/* <State/> */}
+    {/* <DerivedState/> */}
+    <LiftStateUp/>
   </StrictMode>,
 )
