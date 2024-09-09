@@ -7,7 +7,9 @@ import './index.css'
 // import { EventPropagation } from './components/EventPropagation.jsx'
 // import { State } from './components/hooks/State.jsx'
 // import { DerivedState } from './components/DerivedState.jsx'
-import { LiftStateUp } from './components/LiftStateUp.jsx'
+// import { LiftStateUp } from './components/LiftStateUp.jsx'
+// import { TogleSwitch } from './project/Toggle/TogleSwitch.jsx'
+import { Todo } from './project/ToDo/Todo.jsx'
 // import Profile from './components/Profile.jsx'
 
 createRoot(document.getElementById('root')).render(
@@ -18,6 +20,8 @@ createRoot(document.getElementById('root')).render(
     {/* <EventPropagation/> */}
     {/* <State/> */}
     {/* <DerivedState/> */}
-    <LiftStateUp/>
+    {/* <LiftStateUp/> */}
+    {/* <TogleSwitch/> */}
+    <Todo/>
   </StrictMode>,
 )
